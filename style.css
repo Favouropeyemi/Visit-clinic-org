@@ -1,0 +1,2872 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   max-width: 1000px;
+   width: 100%;
+margin: 0 auto;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    height: 80vh;
+
+}
+header .container{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.hairs{
+font-weight: 900;
+color: rgb(190, 190, 91);
+font-size: 2em;
+font-style: italic;
+}
+.container .hairs h5{
+    font-size: 1em;
+}
+.sign-up a{
+   font-weight: 900; 
+   color:black;
+   text-decoration: none;
+    padding: 10px;
+}
+.sign-up button {
+    background-color: blue;
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign-up button a{
+    color: white;
+}
+.surgery .container {
+    display: flex;  
+     justify-content: space-between;   
+    }
+
+
+.container .clinic{
+    display: flex;   
+  color: black;
+}
+.clinic .doctor-profile{
+  padding: 20px;
+  flex: 1;
+}
+.surgery .container h4{
+    text-transform: uppercase;
+    color: green;
+}
+.surgery .container h2{
+    font-size: 2.5em;
+}
+.consultation{
+    display: grid;   
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.consultation1,.consultation2,.consultation3,.consultation4{
+    display: flex;
+    margin: 1em;
+    margin-left: 0;
+}
+
+
+.consultation h5{
+     display: flex; 
+    font-size: 2em;
+    color: blue;
+}
+.consultation p{
+    display: flex;
+    flex-direction: column; 
+}
+.consultation span{
+    color: rgb(126, 117, 117);
+    font-style: italic;
+  }
+  .button button,.sertificated button,.check-gallery button{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: blue;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .button button a{
+    color: white;
+    text-decoration:none ;
+  }
+
+
+.profile-image img {
+     width: 25em; 
+     height: 30em;
+     border-top-left-radius: 2em; 
+     border-bottom-right-radius: 2em;
+     border-bottom-left-radius: 1em;
+     border-top-right-radius: 1em;
+}
+
+.available-doctors {
+    position: absolute;
+     top: 30%; 
+    right: 5%;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.available-header h4 {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.available-header h5 {
+    color: gray;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+.doctor-list {
+    margin-top: 1em;
+}
+
+.doctor {
+     display: flex; 
+     align-items: center; 
+    margin-bottom: 1em;
+}
+
+.doctor img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.doctor-info h5 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.doctor-info p {
+    margin: 0;
+    color: gray;
+    font-size: 0.9em;
+}
+
+.available-doctors button {
+    width: 100%;
+    padding: 0.7em;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ .available-doctors button a {
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+}
+.available-doctors button a:hover{
+    color: white;
+    text-decoration: none;
+    
+}
+
+button:hover {
+    background-color: darkblue;
+}
+.steps .container{
+    margin-top: 3em;
+}
+.steps h5{
+    text-align: center;
+    text-transform: uppercase;
+    color: blue ;
+}
+    
+.steps h2{
+    text-align: center;
+    font-size: 2em;
+}
+.solutions{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+}
+.solutions h5{
+    font-size: 2.5em;
+    text-align: left;
+}
+.solutions h6{
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+.solutions p{
+    color: rgb(167, 100, 19);
+}
+.solution1,.solution2,.solution3,.solution4{
+    margin: 1em;
+}
+.feedbacks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    text-align: center;
+}
+.feedbacks h1{
+    font-size: 2em;
+}
+.feedbacks h1 span{
+    font-size: 15px;        
+}
+.feedbacks h4{
+    color: black;
+    font-size: 1.5em;
+}
+.feedbacks p{
+    color: rgb(131, 91, 42);
+}
+.feedback1,.feedback2,.feedback3{
+    border-right: 1px solid;
+    padding: 10px;
+    margin: 1em;
+}
+.feedback2{
+     text-align: center; 
+     padding-left:0.1px; 
+}
+.feedback3{
+    border-right: none;
+}
+.qualified-doctors .container{
+    display: flex;
+    background-color: rgb(238, 238, 247);
+    
+}
+
+.high-doctors{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.high-doctors img{
+    width: 30%;
+    border-radius: 5px;
+}
+.high-doctor3 img,.high-doctor1 img,.high-doctor4 img,.high-doctor2 img{
+    height: 4em;
+    margin: 10px;
+}
+.high-doctor1,.high-doctor2,.high-doctor3,.high-doctor4{
+    border: 1px solid;
+    margin: 1em;
+    width: 12em;
+    height: 15em;
+    border-color: white;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.high-doctor2,.high-doctor4{
+    margin-top: 2em;
+}
+.high-doctors h5,p,span,h6{
+    margin-left: 10px;
+}
+.high-doctors h5{
+    font-size: 1.2em;
+}
+.high-doctors p{
+    font-size: 12px;
+    color: rgb(150, 137, 121);
+}
+.high-doctors h6{
+    padding-top: 2em;
+    color: rgb(78, 74, 70);
+}
+.sertificated{
+    padding: 2em;
+    margin-top: 2em; 
+}
+.sertificated h5{
+    text-transform: uppercase;
+    color: blue;
+    
+}
+.sertificated h2{
+    font-size: 2.2em;
+    padding-top: 8px;
+    padding-bottom: 1em;
+}
+.sertificated p{
+    color: rgb(73, 73, 121);
+}
+.sertificated button{
+    margin-top: 2em;
+}
+.sertificated button a{
+    color: white;
+    text-decoration: none;
+}
+.post-questions .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 6em;
+}
+.container .post-question h6{
+   text-transform: uppercase;
+   color: blue;
+}
+.container .post-question h2{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.container .post-question p{
+    color: rgb(107, 98, 98);
+    padding-bottom: 1em;
+}
+.container .post-question h5{
+    padding: 8px;
+}
+.container .post-question h5 i{
+    color: blue;
+}
+
+.experts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.doc-info {
+    position: relative;
+}
+
+.doc-photo {
+    width: 27em;
+    height: 29em;
+    border-top-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    margin-bottom: 20px;
+}
+
+.doc-list {
+    position: absolute;
+    top: 60%;
+     right: 35%; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.doc-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.doc-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.doc-details h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.doc-details p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.ask-question {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ask-question a{
+    text-decoration: none;
+    color: white;
+}
+
+.ask-question:hover {
+    background-color: #0056b3;
+}
+.hair-transplant .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 6em;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-info {
+    position: relative;
+}
+
+.card-photo {
+    width: 27em;
+    height: 29em;
+    
+     border-top-right-radius: 3em; 
+    border-bottom-left-radius: 3em;
+    margin-bottom: 20px;
+}
+
+.card-list {
+    position: absolute;
+    top: 65%;
+     left: 52%; 
+    background-color: white;
+     border-radius: 3px; 
+    padding: 10px;
+    width: 230px;
+}
+
+.card-item1,.card-item2,.card-item3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card-list .card-details  h3{
+    font-size: 1.1em;
+}
+.card-list h5{
+    border: 1px solid;
+    font-size: 2.2em;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+}
+.card-item1 h5{
+background-color: rgb(238, 188, 198);
+}
+.card-item2 h5{
+    background-color: rgb(213, 213, 241);
+}
+.card-item3 h5{
+    background-color: rgb(196, 240, 196);
+}
+
+
+.card-details h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.card-details p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+}
+.find-your-clinic{
+
+}
+.find-your-clinic h6{
+    text-transform: uppercase;
+    color: blue;
+    font-size: 20px;
+}
+.find-your-clinic h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.find-your-clinic p{
+    color: #666;
+    margin-bottom: 10px;
+}
+.find-your-clinic .p-border{
+    border-left: 3px solid;
+    color: black;
+    border-color: blue;
+    padding-left: 1em;
+    margin-bottom: 10px;
+}
+.gallery .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4em;
+}
+.check-gallery{
+     padding-top: 10em; 
+}
+.check-gallery h6{
+ text-transform: uppercase;
+ color: blue;
+ padding-bottom: 10px;
+}
+.check-gallery h2{
+    font-size: 2.2em;
+
+}
+.check-gallery p{
+    color: #777;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.check-gallery h5 i{
+    color: blue;
+    padding: 8px;
+}
+.check-gallery button{
+    margin-top: 10px;
+}
+.check-gallery button a{
+text-decoration: none;
+color: white;
+}
+.container .gallery-process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 80vh; 
+}
+
+.image-wrapper {
+    position: relative;
+    
+}
+
+.image-wrapper img {
+    width: 22em;
+    height: 25em;
+     border-top-left-radius: 2em; 
+    border-bottom-right-radius: 2em;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -50px;
+    right: 45%;
+    background: white;
+    border-radius: 15px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-box ,.search-box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.search-box input,.search-box2 input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.search-box button ,.search-box button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.7em;
+    background-color: blue;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result img {
+    width: 15em;
+    height: 7em;
+    margin-bottom: 10px;
+}
+
+.result .text {
+    text-align: center;
+}
+
+.result h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.result p {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+}
+.our-doctors .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-bottom: 0;
+    text-align: center;
+    background-color:rgb(242, 242, 247) ;
+    padding-bottom: 3em;
+}
+ .our-doctors .container .see-doctorz{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+ .container .see-doctorz h5 {
+    text-transform: uppercase;
+    color: blue;
+}
+ .our-doctors .container .see-doctorz h2{
+    font-size: 2em;
+    color: black;
+}
+.our-doctors .container .see-doctorz p{
+    color: #9e9393;
+    margin-top: 1em;
+}
+.container .see-doctors {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+      padding-top: 1px; 
+      margin-left: 50px;
+     
+}
+.see-doctor1,.see-doctor2,.see-doctor3,.see-doctor4,.see-doctor5,.see-doctor6,.see-doctor7,.see-doctor8{
+    border: 1px solid;
+    margin-left: 0;
+    margin-top: 1em;
+    background-color: white;
+    border-color: white;
+    border-radius: 1em;
+    height: 13em;
+    width: 11em;
+   
+}
+.see-doctors img{
+    width: 3em;
+    height: 3em;
+    margin-top: 1em;
+    margin-right: 3em;
+    border-radius: 10px;
+}
+ .see-doctor1 .patient,.see-doctor3 .patient,.see-doctor6 .patient{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.see-doctor1 .patient h6,.see-doctor3 .patient h6,.see-doctor6 .patient h6{
+    margin-left: 5px;
+}
+.see-doctors h3{
+    font-size: 1em;
+    margin-top: 5px;  
+}
+.see-doctors h5{
+    border: 1px solid;
+    width: 60px;
+    background-color: rgb(215, 215, 236);
+    color: blue;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.see-doctors h5:hover,.see-doctors h6:hover{
+    background-color: blue;
+    color: white;
+}
+.see-doctors h5:active{
+    background-color: #aaa3a3;
+    color: black;
+}
+.see-doctors h6:active{
+    background-color: rgb(172, 172, 69);
+    color: yellow;
+}
+.see-doctors h6{
+    border: 1px solid;
+    width: 60px;
+    background-color: pink;
+    color: rgb(192, 53, 76);
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.see-doctors p{
+    color:#666;
+    margin-top: 30px;
+}
+.see-doctors strong{
+    color: #bdadad;
+    font-size: 12px;
+}
+.see-doctor-button button ,.change .time-button button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2em;
+    background-color: rgb(23, 23, 179);
+    color: white;
+    font-size: 14px;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.see-doctor-button button a,.change .time-button button a{
+    color: white;
+    text-decoration: none;
+}
+.see-doctor-button button:hover,.change .time-button button:hover{
+    background-color: #007bff;
+}
+.testominals .container{
+    margin-top: 15em;
+}
+.container .About-us{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.About-us h5{
+    text-transform: uppercase;
+    color: blue;
+}
+.About-us h2{
+    font-size: 2em;
+}
+.container .commentz{
+    display: flex;
+}
+.image-text-comment{
+    display: flex;
+}
+ .commentz .comment2,.commentz .comments{
+    border: 3px solid;
+    margin: 1em;
+    background-color: white;
+    border-color: rgb(204, 197, 197);
+}
+.container .comment-card {
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    width: 500px;
+}
+
+.container .comment-image img {
+    width: 60px;
+    height: 50px;
+    border-radius: 10%;
+    margin: 16px;
+}
+
+.container .comment-details {
+    padding: 16px;
+}
+
+.container .comment-details h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.container .comment-details p {
+    margin: 4px 0;
+    color: #666;
+}
+
+.rating {
+    color: yellow;
+    margin: 8px 0;
+}
+
+.description {
+    margin-top: 16px;
+    color: #333;
+}
+.container .change{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(242, 242, 247)  ;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
+   
+}
+.change .time{
+    flex:3;
+}
+.change .time h6{
+    text-transform: uppercase;
+    color: rgb(106, 106, 236);
+    font-size: 14px;
+     margin: 2em; 
+}
+.change .time h2 {
+    font-size: 30px;
+    
+}
+.change .time h2 span{
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+.change .time h2  strong{
+    margin-left: 1em;
+}
+.change .time-button{
+    margin: 5em;
+    flex:1;
+}
+.hairs-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    margin-left: 3px;
+}
+.hair-footer1 h5 span{
+    border: 1px solid;
+    background-color: rgb(122, 230, 122);
+    border-color: rgb(122, 230, 122);
+    border-radius: 2em;
+    color: rgb(122, 230, 122);
+}
+.hair-footer1 h5 ,.hair-footer2 h5 ,.hair-footer3 h5 ,.hair-footer4 h5 {
+  margin-bottom: 1em;
+  margin-left: 1em;
+  font-size: 1em;
+  font-weight: 900;
+}
+.hair-footer1 p,.hair-footer2 p,.hair-footer3 p,.hair-footer4 p{
+    margin-bottom: 1em;
+    color: #bdadad;
+    
+}
+.hair-footer1-icon{
+    font-size: 2em;
+    padding-left: 6px;
+}
+.search-box2 button{
+    background-color: blue;
+    border: none;
+    font-size: 1.6em;
+}
+.copy-write{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #bdadad;
+}
+
+
+@media screen and (max-width:767px){
+    header .container{
+        display: flex;
+         justify-content: space-between;
+         align-items: center; 
+    }
+    .hairs{
+    font-weight: 900;
+    padding-left: 10px;
+    font-size: 1.5em;
+    }
+    .sign-up a{
+        font-size: 12px;
+        padding: 3px;
+    }
+    .sign-up button {
+         padding: 3px; 
+         border-radius: 12px; 
+         
+
+    }
+    .sign-up button a{
+        color: white;
+       
+    }
+    .surgery .container {
+        display: flex;  
+         flex-direction: row;
+         margin-top: 1em;
+         margin-left: 10px;
+        }
+    
+    
+   
+    .doctor-list .doctor h5{
+        font-size: 10px;
+    }
+    .doctor-list .doctor p{
+        font-size: 10px;
+    }
+    
+    .doctor-list .doctor img{
+        width: 25px;
+        height: 30px;
+    }
+    .surgery .container h4{
+        font-size: 10px;
+    }
+    .surgery .container h2{
+        font-size: 1.5em;
+    }
+    .doctor-profile button{
+         padding-top: 2px; 
+         padding-bottom: 2px;
+    }
+    .doctor-profile .available-doctors button{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    
+    .doctor-profile button a{
+        font-size: 9px;}
+       
+    .consultation{
+        display: grid;   
+        grid-template-columns: repeat(2,1fr);
+    }
+    .consultation1,.consultation2,.consultation3,.consultation4{
+        display: flex;
+        margin: 1em;
+        margin-left: 0;
+    }
+    
+    
+    .consultation h5{
+         display: flex; 
+        font-size: 1.5em;
+        color: blue;
+    }
+    .consultation p{
+        display: flex;
+        flex-direction: column; 
+        font-size: 10px;
+    }
+    
+      .button button,.sertificated button {
+        
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 10px;
+        
+      }
+      .button button a{
+        color: white;
+        text-decoration:none ;
+      }
+    
+    .doctor-profile{
+        margin-right: 5em;
+    }
+    .profile-image img {
+         width: 15em; 
+         height: 15em;
+         border-top-left-radius: 1em; 
+         border-bottom-right-radius: 1em;
+         border-bottom-left-radius: 8px;
+         border-top-right-radius: 8px;
+         margin-top: 1em;
+    }
+    
+    .available-doctors {
+        position: absolute;
+         top: 30%; 
+        left: 75%;
+        width: 22%;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    .available-header h4 {
+        font-size: 0.7em;
+       
+    }
+    
+    .available-header h5 {
+        font-size: 0.5em;
+    }
+    
+   
+    
+    
+    
+    .doctor-info h5 {
+        margin: 0;
+        font-size: 1em;
+    }
+    
+    .doctor-info p {
+        margin: 0;
+        color: gray;
+        font-size: 0.9em;
+    }
+    
+    .available-doctors button {
+        width: 100%;
+        padding: 0.7em;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+     .available-doctors button a {
+        color: white;
+        text-decoration: none;
+        background-color: blue;
+    }
+    
+    button:hover {
+        background-color: darkblue;
+    }
+    .steps .container{
+        margin-top: -6em;
+    }
+   
+        
+    .steps h2{
+        font-size: 1em;
+    }
+    .container .solutions{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+
+    }
+    .solutions h5{
+        font-size: 2em;
+        text-align: left;
+    }
+    .solutions h6{
+        font-size: 12px;
+        padding-bottom: 1em;
+    }
+    .solutions p{
+       
+        font-size: 14px;
+    }
+  
+    .feedbacks{
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+    }
+    .feedbacks h1{
+        font-size: 1em;
+    }
+    .feedbacks h1 span{
+        font-size: 14px;        
+    }
+    .feedbacks h4{
+        font-size: 1em;
+    }
+    .feedbacks p{
+        font-size: 1em;
+        margin-right: 7px;
+    }
+    
+    .feedback2{
+         
+         margin-left: 5px; 
+    }
+    .feedback3{
+       
+        margin-left: 5px;
+    }
+    .qualified-doctors .container{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .high-doctors{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .high-doctors img{
+        width: 25%;
+        border-radius: 5px;
+    }
+    .high-doctor3 img,.high-doctor1 img,.high-doctor4 img,.high-doctor2 img{
+        height: 3em;
+        margin: 10px;
+    }
+    .high-doctor1,.high-doctor2,.high-doctor3,.high-doctor4{
+      
+        width: 8em; 
+        height: 10em; 
+        
+    }
+    
+    .high-doctors h5,p,span,h6{
+        margin-left: 10px;
+    }
+    .high-doctors h5{
+        font-size: 11px;
+    }
+    .high-doctors p{
+         font-size: 8px;
+    }
+    .high-doctors h6{
+        font-size: 9px;
+    }
+    .high-doctors span{
+        font-size: 8px;
+    }
+    .sertificated{
+        padding: 2em;
+        margin-top: 1em; 
+    }
+    
+    .sertificated h2{
+        font-size: 1.5em;
+    }
+    .sertificated p{
+        font-size: 13px;
+        margin-left: 3px;
+    }
+    .sertificated button{
+        margin-top: 1em;
+        padding: 4px;
+        font-size: 10px;
+    }
+    .post-questions .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+         padding-top: 3px;
+    }
+    .container .post-question h6{
+       font-size: 14px;
+    }
+    .container .post-question h2{
+        font-size: 1em;
+        margin-left: 9px;
+        margin-top: 4px;
+    }
+    .container .post-question p{
+        font-size: 12px;
+    }
+    .container .post-question h5{
+        font-size: 11px;
+    }
+   
+    .experts {
+        display: flex;
+    }
+    
+    .doc-info {
+        position: relative;
+    }
+    
+    .doc-photo {
+        width: 15em;
+        height: 17em;
+        border-top-left-radius: 2em;
+        border-bottom-right-radius: 2em;
+        border-top-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+    }
+    
+    .doc-list {
+        position: absolute;
+        top: 60%;
+         right: 40%; 
+        background-color: #bdadad;
+        border-radius: 10px;
+        padding: 10px;
+        width: 180px;
+    }
+    
+    .doc-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    .doc-item img {
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    .doc-details h3 {
+        font-size: 10px;
+    }
+    
+    .doc-details p {
+        font-size: 7px;
+    }
+    
+    .ask-question {
+        padding: 3px;
+        font-size: 8px;
+    }
+    .hair-transplant .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: -9em;
+    }
+    .card {
+        /* padding-top: -1em; */
+    }
+    
+    .card-info {
+        position: relative;
+    }
+    
+    .card-photo {
+        width: 15em;
+        height: 17em;
+         border-top-right-radius: 2em; 
+        border-bottom-left-radius: 2em;
+        margin-bottom: 20px;
+        margin-right: 3em;
+    }
+    
+    .card-list {
+        position: absolute;
+        top: 65%;
+         left: 52%; 
+        background-color: white;
+         border-radius: 3px; 
+        padding: 10px;
+        width: 150px;
+    }
+    
+    .card-item1,.card-item2,.card-item3 {
+        font-size: 10px;
+    }
+
+    .card-list h5{
+        font-size: 17px; 
+        
+    }
+    .card-list .card-details p{
+        font-size: 8px;
+    }
+    
+    
+    .find-your-clinic{
+        padding-top: 4em;
+        margin-right: 2em;
+    }
+    .find-your-clinic h6{
+        font-size: 14px;
+    }
+    .find-your-clinic h2{
+        font-size: 1.3em;
+        margin-left: 7px;
+    }
+    .find-your-clinic p{
+        font-size: 9px;
+    }
+    .gallery .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* padding-top:-5em; */
+        margin-left: 10px;
+    }
+    .check-gallery{
+         padding-top: 1px; 
+    }
+    .check-gallery h6{
+     font-size: 10px;
+    }
+    .check-gallery h2{
+        font-size: 1.2em;
+        margin-left: 10px;
+    
+    }
+    .check-gallery p{
+        font-size: 12px;
+    }
+    .check-gallery h5 {
+        font-size: 11px;
+    }
+    .check-gallery button{
+        margin-left: 10px;
+        padding: 8px;
+        font-size: 10px;
+    }
+    .check-gallery button a{
+    text-decoration: none;
+    color: white;
+    }
+    .gallery-process .image-wrapper {
+        margin-bottom: 15em;
+        margin-right: 2em;
+    }
+    .image-wrapper img {
+        width: 16em;
+        height: 15em;
+         border-top-left-radius: 2em; 
+        border-bottom-right-radius: 2em;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: -50px;
+        right: 42%;
+        background-color: white;
+        width: 180px;  
+    }
+    
+    
+    .search-box input {
+        width: 50%;
+        background-color: none;
+    }
+    
+    .search-box button {
+        
+        font-size: 1.2em;
+        
+    }
+    
+    .result img {
+        width: 10em;
+        height: 5em;
+    }
+    
+   
+    
+    .result h3 {
+        font-size: 12px;
+    }
+    
+    .result p {
+        font-size: 10px;
+    }
+    .our-doctors .container{
+        margin-top: 1px;
+    }
+     .container .see-doctorz h5 {
+       font-size: 10px;
+    }
+     .our-doctors .container .see-doctorz h2{
+        font-size: 1.4em;
+    }
+    .our-doctors .container .see-doctorz p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .container .see-doctors {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);   
+        margin-left: 30px;
+    }
+    .see-doctor1,.see-doctor2,.see-doctor3,.see-doctor4,.see-doctor5,.see-doctor6,.see-doctor7,.see-doctor8{
+        border-radius: 1em;
+        height: 10em;
+        width: 8em;
+       
+    }
+    .see-doctors img{
+        width: 2em;
+        height: 2em;
+        border-radius: 7px;
+    }
+    .see-doctor1 .patient h6,.see-doctor3 .patient h6,.see-doctor6 .patient h6{
+        margin-left: 1px;
+    }
+
+   
+    .see-doctors h3{
+        font-size: 11px;
+        margin-top: 5px;  
+    }
+    .see-doctors h5{
+        border: 1px solid;
+        width: 45px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .see-doctor2 h5,.see-doctor7 h5{
+        margin-left: 2.5em;
+    }
+    .see-doctors h6{
+        border: 1px solid;
+        width: 45px;
+        font-size: 10px;
+    }
+    .see-doctors p{
+        font-size: 10px;
+        margin-right: 30px;
+        margin-top: 12px;
+    }
+    .see-doctors strong{
+        font-size: 8px;
+        margin-right: 12px;
+    }
+    .see-doctor-button button {
+        font-size: 10px;
+        padding: 4px;
+        border-radius: 15px;
+        padding-left: 1.7em;
+        padding-right: 1.7em;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+   
+    .testominals .container{
+        margin-top: 7em;
+    }
+    .About-us h5{
+        font-size: 10px;
+    }
+    .About-us h2{
+        font-size: 1.2em;
+    }
+    .image-text-comment{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .comment-image img {
+        width: 40px;
+        height: 30px;
+        border-radius: 10%;
+        margin: 16px;
+    }
+    
+    .container .comment-details {
+        padding: 16px;
+    }
+    
+    .container .comment-details h2 {
+
+        font-size: 14px;
+    }
+    
+    .container .comment-details p {
+        font-size: 10px;
+    }
+    .container .change{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 1px;
+        margin-top: -8em;
+       
+    }
+    .change .time{
+        flex:3;
+    }
+    .change .time h6{
+        font-size: 15px;
+        /* text-align: center;    */
+    }
+    .change .time h2 {
+        font-size: 1.2em;
+        /* text-align: center; */
+        
+    }
+    .change .time h2 strong{
+        margin-left: 1.5em;
+    }
+    
+    .change .time-button{
+        /* text-align: center; */
+        padding: 10px;
+    }
+    .change .time-button button{
+        font-size: 9px;
+    }
+    .hairs-footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        
+    }
+   
+    .hair-footer1 h5 ,.hair-footer2 h5 ,.hair-footer3 h5 ,.hair-footer4 h5 {
+      margin-bottom: 1em;
+      margin-left: 1em;
+      font-size: 14px;
+      font-weight: 900;
+    }
+    .hair-footer1 p,.hair-footer2 p,.hair-footer3 p,.hair-footer4 p{
+       font-size: 10px;
+        
+    }
+    .hair-footer1-icon{
+        font-size: 1em;
+        margin-left: 3px;
+    }
+    .search-box2 button{
+        font-size: 14px;
+    }
+    .copy-write p{
+       font-size: 10px;
+    }
+    
+    
+    
+    
+   
+    
+    
+    
+      
+
+}
+@media screen and (max-width:500px){
+    .container{
+        padding-left: 1em;
+    }
+    header .container{
+        display: flex;
+         justify-content: space-between;
+         align-items: center; 
+    }
+    .hairs{
+    font-weight: 900;
+    padding-left: 10px;
+    font-size: 1.3em;
+    }
+    .sign-up a{
+        font-size: 11px;
+        padding: 1px;
+    }
+    .sign-up button {
+         padding: 3px; 
+         border-radius: 15px; 
+         
+
+    }
+    .sign-up button a{
+        color: white;
+       
+    }
+    .surgery .container {
+        display: flex;  
+         flex-direction: column;
+         margin-top: 1em;
+         margin-left: 10px;
+        }
+    
+    
+   
+    .doctor-list .doctor h5{
+        font-size: 10px;
+    }
+    .doctor-list .doctor p{
+        font-size: 10px;
+    }
+    
+    .doctor-list .doctor img{
+        width: 25px;
+        height: 30px;
+    }
+    .surgery .container h4{
+        font-size: 10px;
+    }
+    .surgery .container h2{
+        font-size: 1.5em;
+    }
+    .doctor-profile button{
+         padding-top: 2px; 
+         padding-bottom: 2px;
+    }
+    .doctor-profile .available-doctors button{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    
+    .doctor-profile button a{
+        font-size: 9px;}
+       
+    .consultation{
+        display: grid;   
+        grid-template-columns: repeat(2,1fr);
+    }
+    .consultation1,.consultation2,.consultation3,.consultation4{
+        display: flex;
+        margin: 1em;
+        margin-left: 0;
+    }
+    
+    
+    .consultation h5{
+         display: flex; 
+        font-size: 1.5em;
+        color: blue;
+    }
+    .consultation p{
+        display: flex;
+        flex-direction: column; 
+        font-size: 10px;
+    }
+    
+      .button button,.sertificated button {
+        
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 10px;
+        
+      }
+      .button button a{
+        color: white;
+        text-decoration:none ;
+      }
+    
+    
+    .profile-image img {
+         width: 17em; 
+         height: 15em;
+         border-top-left-radius: 1em; 
+         border-bottom-right-radius: 1em;
+         border-bottom-left-radius: 8px;
+         border-top-right-radius: 8px;
+         margin-top: 1em;
+    }
+    
+    .available-doctors {
+        position: absolute;
+         top: 60%; 
+        left: 25%;
+        width: 50%;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    .available-header h4 {
+        font-size: 0.7em;
+       
+    }
+    
+    .available-header h5 {
+        font-size: 0.5em;
+    }
+    
+   
+    
+    
+    
+    .doctor-info h5 {
+        margin: 0;
+        font-size: 1em;
+    }
+    
+    .doctor-info p {
+        margin: 0;
+        color: gray;
+        font-size: 0.9em;
+    }
+    
+    .available-doctors button {
+        width: 100%;
+        padding: 0.7em;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+     .available-doctors button a {
+        color: white;
+        text-decoration: none;
+        background-color: blue;
+    }
+    
+    button:hover {
+        background-color: darkblue;
+    }
+    .steps .container{
+        margin-top: 4em;
+    }
+   
+        
+    .steps h2{
+        font-size: 1em;
+    }
+    .solutions{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    }
+    .solutions h5{
+        font-size: 1.5em;
+        text-align: left;
+    }
+    .solutions h6{
+        font-size: 12px;
+        padding-bottom: 1em;
+    }
+    .solutions p{
+       
+        font-size: 10px;
+    }
+  
+    .feedbacks{
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+    }
+    .feedbacks h1{
+        font-size: 1em;
+    }
+    .feedbacks h1 span{
+        font-size: 10px;        
+    }
+    .feedbacks h4{
+        font-size: 0.5em;
+    }
+    .feedbacks p{
+        font-size: 10px;
+        margin-right: 7px;
+    }
+    
+    .feedback2{
+         
+         margin-left: 5px; 
+    }
+    .feedback3{
+       
+        margin-left: 5px;
+    }
+    .qualified-doctors .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .high-doctors{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .high-doctors img{
+        width: 25%;
+        border-radius: 5px;
+    }
+    .high-doctor3 img,.high-doctor1 img,.high-doctor4 img,.high-doctor2 img{
+        height: 3em;
+        margin: 10px;
+    }
+    .high-doctor1,.high-doctor2,.high-doctor3,.high-doctor4{
+      
+        width: 10em; 
+        height: 11em; 
+        
+    }
+    
+    .high-doctors h5,p,span,h6{
+        margin-left: 10px;
+    }
+    .high-doctors h5{
+        font-size: 12px;
+    }
+    .high-doctors p{
+        font-size: 12px;
+        /* font-size: 5px; */
+    }
+    .high-doctors h6{
+        font-size: 10px;
+    }
+    .high-doctors span{
+        font-size: 8px;
+    }
+    .sertificated{
+        padding: 2em;
+        margin-top: 1em; 
+    }
+    
+    .sertificated h2{
+        font-size: 1.2em;
+    }
+    .sertificated p{
+        font-size: 9px;
+        margin-left: 3px;
+    }
+    .sertificated button{
+        margin-top: 1em;
+        padding: 4px;
+        font-size: 12px;
+    }
+    .post-questions .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+         padding-top: 15em;
+         
+    }
+    .container .post-question h6{
+       font-size: 10px;
+    }
+    .container .post-question h2{
+        font-size: 1em;
+        margin-left: 11px;
+        margin-top: 4px;
+    }
+    .container .post-question p{
+        font-size: 10px;
+    }
+    .container .post-question h5{
+        font-size: 10px;
+    }
+   
+    .experts {
+        display: flex;
+    }
+    
+    .doc-info {
+        position: relative;
+    }
+    
+    .doc-photo {
+        width: 13em;
+        height: 15em;
+        border-top-left-radius: 2em;
+        border-bottom-right-radius: 2em;
+        border-top-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+    }
+    
+    .doc-list {
+        position: absolute;
+        top: 60%;
+         right: 40%; 
+        background-color: #bdadad;
+        border-radius: 10px;
+        padding: 10px;
+        width: 180px;
+    }
+    
+    .doc-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    .doc-item img {
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    .doc-details h3 {
+        font-size: 10px;
+    }
+    
+    .doc-details p {
+        font-size: 7px;
+    }
+    
+    .ask-question {
+        padding: 3px;
+        font-size: 8px;
+    }
+    .hair-transplant .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card {
+        padding-top: 22em;
+    }
+    
+    .card-info {
+        position: relative;
+    }
+    
+    .card-photo {
+        width: 13em;
+        height: 15em;
+         border-top-right-radius: 2em; 
+        border-bottom-left-radius: 2em;
+        margin-bottom: 20px;
+        margin-right: 3em;
+    }
+    
+    .card-list {
+        position: absolute;
+        top: 65%;
+         left: 52%; 
+        background-color: white;
+         border-radius: 3px; 
+        padding: 10px;
+        width: 150px;
+    }
+    
+    .card-item1,.card-item2,.card-item3 {
+        font-size: 10px;
+    }
+
+    .card-list h5{
+        font-size: 17px; 
+        
+    }
+    .card-list .card-details p{
+        font-size: 8px;
+    }
+    
+    
+    .find-your-clinic{
+        padding-top: 5em;
+        margin-left: 6px;
+    }
+    .find-your-clinic h6{
+        font-size: 10px;
+    }
+    .find-your-clinic h2{
+        font-size: 1em;
+        margin-left: 7px;
+    }
+    .find-your-clinic p{
+        font-size: 10px;
+    }
+    .gallery .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 15em;
+        margin-left: 10px;
+    }
+    .check-gallery{
+         padding-top: 20em; 
+    }
+    .check-gallery h6{
+     font-size: 10px;
+    }
+    .check-gallery h2{
+        font-size: 1.6em;
+        margin-left: 10px;
+    
+    }
+    .check-gallery p{
+        font-size: 10px;
+    }
+    .check-gallery h5 {
+        font-size: 12px;
+    }
+    .check-gallery button{
+        margin-left: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .check-gallery button a{
+    text-decoration: none;
+    color: white;
+    }
+    .gallery-process .image-wrapper {
+        margin-bottom: 8em;
+    }
+    .image-wrapper img {
+        width: 16em;
+        height: 15em;
+         border-top-left-radius: 2em; 
+        border-bottom-right-radius: 2em;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: -50px;
+        right: 42%;
+        background-color: white;
+        width: 180px;  
+    }
+    
+    
+    .search-box input {
+        width: 50%;
+        background-color: none;
+    }
+    
+    .search-box button {
+        
+        font-size: 1.2em;
+        
+    }
+    
+    .result img {
+        width: 10em;
+        height: 5em;
+    }
+    
+   
+    
+    .result h3 {
+        font-size: 12px;
+    }
+    
+    .result p {
+        font-size: 10px;
+    }
+    .our-doctors .container{
+        margin-top: 44em;
+    }
+     .container .see-doctorz h5 {
+       font-size: 10px;
+    }
+     .our-doctors .container .see-doctorz h2{
+        font-size: 1.4em;
+    }
+    .our-doctors .container .see-doctorz p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .container .see-doctors {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+        margin-left: 30px; 
+    }
+    .see-doctor1,.see-doctor2,.see-doctor3,.see-doctor4,.see-doctor5,.see-doctor6,.see-doctor7,.see-doctor8{
+        border-radius: 1em;
+        height: 10em;
+        width: 8em;
+       
+    }
+    .see-doctors img{
+        width: 2em;
+        height: 2em;
+        border-radius: 7px;
+    }
+    .see-doctor1 .patient h6,.see-doctor3 .patient h6,.see-doctor6 .patient h6{
+        margin-left: 1px;
+    }
+
+   
+    .see-doctors h3{
+        font-size: 11px;
+        margin-top: 5px;  
+    }
+    .see-doctors h5{
+        border: 1px solid;
+        width: 45px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .see-doctor2 h5,.see-doctor7 h5{
+        margin-left: 2.5em;
+    }
+    .see-doctors h6{
+        border: 1px solid;
+        width: 45px;
+        font-size: 10px;
+    }
+    .see-doctors p{
+        font-size: 10px;
+        margin-right: 30px;
+        margin-top: 12px;
+    }
+    .see-doctors strong{
+        font-size: 8px;
+        margin-right: 12px;
+    }
+    .see-doctor-button button {
+        font-size: 10px;
+        padding: 4px;
+        border-radius: 15px;
+        padding-left: 1.7em;
+        padding-right: 1.7em;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+   
+    .testominals .container{
+        margin-top: 32em;
+    }
+    .About-us h5{
+        font-size: 10px;
+    }
+    .About-us h2{
+        font-size: 1.2em;
+    }
+    .image-text-comment{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .comment-image img {
+        width: 40px;
+        height: 30px;
+        border-radius: 10%;
+        margin: 16px;
+    }
+    
+    .container .comment-details {
+        padding: 16px;
+    }
+    
+    .container .comment-details h2 {
+
+        font-size: 14px;
+    }
+    
+    .container .comment-details p {
+        font-size: 10px;
+    }
+    .container .change{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 1px;
+       
+    }
+    .change .time{
+        flex:3;
+    }
+    .change .time h6{
+        font-size: 10px;
+        text-align: center;   
+    }
+    .change .time h2 {
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    
+    .change .time-button{
+        text-align: center;
+        padding: 10px;
+    }
+    .change .time-button button{
+        font-size: 8px;
+    }
+    .hairs-footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+   
+    .hair-footer1 h5 ,.hair-footer2 h5 ,.hair-footer3 h5 ,.hair-footer4 h5 {
+      margin-bottom: 1em;
+      margin-left: 1em;
+      font-size: 14px;
+      font-weight: 900;
+    }
+    .hair-footer1 p,.hair-footer2 p,.hair-footer3 p,.hair-footer4 p{
+       font-size: 10px;
+        
+    }
+    .hair-footer1-icon{
+        font-size: 1em;
+        margin-left: 3px;
+    }
+    .search-box2 button{
+        font-size: 14px;
+    }
+    .copy-write p{
+       font-size: 10px;
+    }
+    
+    
+    
+    
+   
+    
+    
+    
+      
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:390px){
+    
+    header .container{
+        display: flex;
+         justify-content: space-between;
+         align-items: center; 
+    }
+    .hairs{
+    font-weight: 900;
+    padding-left: 10px;
+    font-size: 12px;
+    }
+    .sign-up a{
+        font-size: 8px;
+        padding: 1px;
+    }
+    .sign-up button {
+         padding: 3px; 
+         border-radius: 15px; 
+         
+
+    }
+    .sign-up button a{
+        color: white;
+       
+    }
+    .surgery .container {
+        display: flex;  
+         flex-direction: column;
+         margin-top: 1em;
+         margin-left: 10px;
+        }
+    
+    
+   
+    .doctor-list .doctor h5{
+        font-size: 10px;
+    }
+    .doctor-list .doctor p{
+        font-size: 10px;
+    }
+    
+    .doctor-list .doctor img{
+        width: 25px;
+        height: 30px;
+    }
+    .surgery .container h4{
+        font-size: 10px;
+    }
+    .surgery .container h2{
+        font-size: 1.5em;
+    }
+    .doctor-profile button{
+         padding-top: 2px; 
+         padding-bottom: 2px;
+    }
+    .doctor-profile .available-doctors button{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    
+    .doctor-profile button a{
+        font-size: 9px;}
+       
+    .consultation{
+        display: grid;   
+        grid-template-columns: repeat(2,1fr);
+    }
+    .consultation1,.consultation2,.consultation3,.consultation4{
+        display: flex;
+        margin: 1em;
+        margin-left: 0;
+    }
+    
+    
+    .consultation h5{
+         display: flex; 
+        font-size: 1.5em;
+        color: blue;
+    }
+    .consultation p{
+        display: flex;
+        flex-direction: column; 
+        font-size: 10px;
+    }
+    
+      .button button,.sertificated button {
+        
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 10px;
+        
+      }
+      .button button a{
+        color: white;
+        text-decoration:none ;
+      }
+    
+    
+    .profile-image img {
+         width: 17em; 
+         height: 15em;
+         border-top-left-radius: 1em; 
+         border-bottom-right-radius: 1em;
+         border-bottom-left-radius: 8px;
+         border-top-right-radius: 8px;
+         margin-top: 1em;
+    }
+    
+    .available-doctors {
+        position: absolute;
+         top: 70%; 
+        left: 40%;
+        width: 50%;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    .available-header h4 {
+        font-size: 0.7em;
+       
+    }
+    
+    .available-header h5 {
+        font-size: 0.5em;
+    }
+    
+   
+    
+    
+    
+    .doctor-info h5 {
+        margin: 0;
+        font-size: 1em;
+    }
+    
+    .doctor-info p {
+        margin: 0;
+        color: gray;
+        font-size: 0.9em;
+    }
+    
+    .available-doctors button {
+        width: 100%;
+        padding: 0.7em;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+     .available-doctors button a {
+        color: white;
+        text-decoration: none;
+        background-color: blue;
+    }
+    
+    button:hover {
+        background-color: darkblue;
+    }
+    .steps .container{
+        margin-top: 8em;
+    }
+   
+        
+    .steps h2{
+        font-size: 1em;
+    }
+    .solutions{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    }
+    .solutions h5{
+        font-size: 1.5em;
+        text-align: left;
+    }
+    .solutions h6{
+        font-size: 12px;
+        padding-bottom: 1em;
+    }
+    .solutions p{
+       
+        font-size: 10px;
+    }
+  
+    .feedbacks{
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+    }
+    .feedbacks h1{
+        font-size: 1em;
+    }
+    .feedbacks h1 span{
+        font-size: 10px;    
+    }
+    .feedbacks h4{
+        font-size: 0.4em;
+    }
+    .feedbacks p{
+        font-size: 10px;
+        margin-right: 7px;
+    }
+    
+    .feedback2{
+         
+         margin-left: 1px; 
+    }
+    .feedback3{
+       
+        margin-left: 2px;
+    }
+    .qualified-doctors .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .high-doctors{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .high-doctors img{
+        width: 25%;
+        border-radius: 5px;
+    }
+    .high-doctor3 img,.high-doctor1 img,.high-doctor4 img,.high-doctor2 img{
+        height: 3em;
+        margin: 10px;
+    }
+    .high-doctor1,.high-doctor2,.high-doctor3,.high-doctor4{
+      
+        width: 8em; 
+        height: 9em; 
+        
+    }
+    
+    .high-doctors h5,p,span,h6{
+        margin-left: 10px;
+    }
+    .high-doctors h5{
+        font-size: 9px;
+    }
+    .high-doctors p{
+        font-size: 12px;
+        font-size: 5px;
+    }
+    .high-doctors h6{
+        font-size: 5px;
+    }
+    .high-doctors span{
+        font-size: 6px;
+    }
+    .sertificated{
+        padding: 2em;
+        margin-top: 1em; 
+    }
+    
+    .sertificated h2{
+        font-size: 1.2em;
+    }
+    .sertificated p{
+        font-size: 9px;
+        margin-left: 3px;
+    }
+    .sertificated button{
+        margin-top: 1em;
+        padding: 2px;
+        font-size: 10px;
+    }
+    
+    .post-questions .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+         padding-top: 10em;
+    }
+    .container .post-question h6{
+       font-size: 8px;
+    }
+    .container .post-question h2{
+        font-size: 0.7em;
+        margin-left: 9px;
+        margin-top: 4px;
+    }
+    .container .post-question p{
+        font-size: 8px;
+    }
+    .container .post-question h5{
+        font-size: 8px;
+    }
+   
+    .experts {
+        display: flex;
+    }
+    
+    .doc-info {
+        position: relative;
+    }
+    
+    .doc-photo {
+        width: 13em;
+        height: 15em;
+        border-top-left-radius: 2em;
+        border-bottom-right-radius: 2em;
+        border-top-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+    }
+    
+    .doc-list {
+        position: absolute;
+        top: 60%;
+         right: 40%; 
+        background-color: #bdadad;
+        border-radius: 10px;
+        padding: 10px;
+        width: 180px;
+    }
+    
+    .doc-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    .doc-item img {
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    .doc-details h3 {
+        font-size: 10px;
+    }
+    
+    .doc-details p {
+        font-size: 7px;
+    }
+    
+    .ask-question {
+        padding: 3px;
+        font-size: 8px;
+    }
+    .hair-transplant .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card {
+        padding-top: 16em;
+    }
+    
+    .card-info {
+        position: relative;
+    }
+    
+    .card-photo {
+        width: 13em;
+        height: 15em;
+         border-top-right-radius: 2em; 
+        border-bottom-left-radius: 2em;
+        margin-bottom: 20px;
+        margin-right: 3em;
+    }
+    
+    .card-list {
+        position: absolute;
+        top: 65%;
+         left: 52%; 
+        background-color: white;
+         border-radius: 3px; 
+        padding: 10px;
+        width: 150px;
+    }
+    
+    .card-item1,.card-item2,.card-item3 {
+        font-size: 10px;
+    }
+
+    .card-list h5{
+        font-size: 17px; 
+        
+    }
+    .card-list .card-details p{
+        font-size: 8px;
+    }
+    
+    
+    .find-your-clinic{
+        padding-top: 4em;
+    }
+    .find-your-clinic h6{
+        font-size: 10px;
+    }
+    .find-your-clinic h2{
+        font-size: 1em;
+        margin-left: 7px;
+    }
+    .find-your-clinic p{
+        font-size: 10px;
+    }
+    .gallery .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 4em;
+        margin-left: 10px;
+    }
+    .check-gallery{
+         padding-top: 25em; 
+    }
+    .check-gallery h6{
+     font-size: 10px;
+    }
+    .check-gallery h2{
+        font-size: 1.2em;
+        margin-left: 10px;
+    
+    }
+    .check-gallery p{
+        font-size: 10px;
+    }
+    .check-gallery h5 {
+        font-size: 10px;
+    }
+    .check-gallery button{
+        margin-left: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .check-gallery button a{
+    text-decoration: none;
+    color: white;
+    }
+    .gallery-process .image-wrapper {
+        margin-bottom: 8em;
+    }
+    .image-wrapper img {
+        width: 16em;
+        height: 15em;
+         border-top-left-radius: 2em; 
+        border-bottom-right-radius: 2em;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: -50px;
+        right: 42%;
+        background-color: white;
+        width: 180px;  
+    }
+    
+    
+    .search-box input {
+        width: 50%;
+        background-color: none;
+    }
+    
+    .search-box button {
+        
+        font-size: 1.2em;
+        
+    }
+    
+    .result img {
+        width: 10em;
+        height: 5em;
+    }
+    
+   
+    
+    .result h3 {
+        font-size: 12px;
+    }
+    
+    .result p {
+        font-size: 10px;
+    }
+    .our-doctors .container{
+        margin-top: 38em;
+    }
+     .container .see-doctorz h5 {
+       font-size: 10px;
+    }
+     .our-doctors .container .see-doctorz h2{
+        font-size: 1.4em;
+    }
+    .our-doctors .container .see-doctorz p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .container .see-doctors {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+        margin-left: 30px; 
+    }
+    .see-doctor1,.see-doctor2,.see-doctor3,.see-doctor4,.see-doctor5,.see-doctor6,.see-doctor7,.see-doctor8{
+        border-radius: 1em;
+        height: 10em;
+        width: 8em;
+       
+    }
+    .see-doctors img{
+        width: 2em;
+        height: 2em;
+        border-radius: 7px;
+    }
+    .see-doctor1 .patient h6,.see-doctor3 .patient h6,.see-doctor6 .patient h6{
+        margin-left: 1px;
+    }
+
+   
+    .see-doctors h3{
+        font-size: 11px;
+        margin-top: 5px;  
+    }
+    .see-doctors h5{
+        border: 1px solid;
+        width: 45px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .see-doctor2 h5,.see-doctor7 h5{
+        margin-left: 2.5em;
+    }
+    .see-doctors h6{
+        border: 1px solid;
+        width: 45px;
+        font-size: 10px;
+    }
+    .see-doctors p{
+        font-size: 10px;
+        margin-right: 30px;
+        margin-top: 12px;
+    }
+    .see-doctors strong{
+        font-size: 8px;
+        margin-right: 12px;
+    }
+    .see-doctor-button button {
+        font-size: 10px;
+        padding: 4px;
+        border-radius: 15px;
+        padding-left: 1.7em;
+        padding-right: 1.7em;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+   
+    .testominals .container{
+        margin-top: 40em;
+    }
+    .About-us h5{
+        font-size: 10px;
+    }
+    .About-us h2{
+        font-size: 1.2em;
+    }
+    .image-text-comment{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .comment-image img {
+        width: 40px;
+        height: 30px;
+        border-radius: 10%;
+        margin: 16px;
+    }
+    
+    .container .comment-details {
+        padding: 16px;
+    }
+    
+    .container .comment-details h2 {
+
+        font-size: 14px;
+    }
+    
+    .container .comment-details p {
+        font-size: 10px;
+    }
+    .container .change{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 1px;
+        margin-top: 3em;
+       
+    }
+    .change .time{
+        flex:3;
+    }
+    .change .time h6{
+        font-size: 10px;
+        text-align: center;   
+    }
+    .change .time h2 {
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    
+    .change .time-button{
+        text-align: center;
+        padding: 10px;
+    }
+    .change .time-button button{
+        font-size: 8px;
+    }
+    .hairs-footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+   
+    .hair-footer1 h5 ,.hair-footer2 h5 ,.hair-footer3 h5 ,.hair-footer4 h5 {
+      margin-bottom: 1em;
+      margin-left: 1em;
+      font-size: 14px;
+      font-weight: 900;
+    }
+    .hair-footer1 p,.hair-footer2 p,.hair-footer3 p,.hair-footer4 p{
+       font-size: 10px;
+        
+    }
+    .hair-footer1-icon{
+        font-size: 1em;
+        margin-left: 3px;
+    }
+    .search-box2 button{
+        font-size: 14px;
+    }
+    .copy-write p{
+       font-size: 10px;
+    }
+    
+    
+    
+    
+   
+    
+    
+    
+      
+
+}
