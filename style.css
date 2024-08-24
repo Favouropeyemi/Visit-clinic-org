@@ -907,14 +907,14 @@ color: white;
         height: auto;
     }
     body{
-        font-size: 62.5%;
+        /* font-size: 62.5%; */
     }
 }
 
 
 @media screen and (max-width:750px){
     body{
-        font-size: 62.5%;
+        /* font-size: 62.5%; */
     }
 
     section{
