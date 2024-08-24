@@ -912,7 +912,7 @@ color: white;
 }
 
 
-@media screen and (max-width:750px){
+@media(max-width:767px) and(max-width:600px){
     body{
         /* font-size: 62.5%; */
     }
