@@ -898,7 +898,19 @@ color: white;
 }
 
 
+
+@media(max-width:991px){
+    section{
+        height: auto;
+    }
+}
+
+
 @media screen and (max-width:767px){
+
+    section{
+        height: auto;
+    }
     header .container{
         display: flex;
          justify-content: space-between;
