@@ -906,10 +906,16 @@ color: white;
     .container{
         height: auto;
     }
+    body{
+        font-size: 62.5%;
+    }
 }
 
 
 @media screen and (max-width:767px){
+    body{
+        font-size: 62.5%;
+    }
 
     section{
         height: auto;
