@@ -3060,7 +3060,7 @@ color: white;
         background-color: darkblue;
     }
     .steps .container{
-        margin-top: 8em;
+        margin-top: 13em;
     }
    
         
@@ -3173,7 +3173,7 @@ color: white;
     .post-questions .container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-         padding-top: 10em;
+         padding-top: 5em;
     }
     .container .post-question h6{
        font-size: 8px;
@@ -3247,7 +3247,7 @@ color: white;
         grid-template-columns: repeat(1,1fr);
     }
     .card {
-        padding-top: 16em;
+        padding-top: 15em;
     }
     
     .card-info {
@@ -3303,11 +3303,11 @@ color: white;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding-top: 4em;
+        /* padding-top: -10em; */
         margin-left: 10px;
     }
     .check-gallery{
-         padding-top: 25em; 
+         padding-top: 1em; 
     }
     .check-gallery h6{
      font-size: 10px;
@@ -3377,7 +3377,7 @@ color: white;
         font-size: 10px;
     }
     .our-doctors .container{
-        margin-top: 38em;
+        margin-top: -8em;
     }
      .container .see-doctorz h5 {
        font-size: 10px;
@@ -3449,7 +3449,7 @@ color: white;
     }
    
     .testominals .container{
-        margin-top: 40em;
+        margin-top: 5em;
     }
     .About-us h5{
         font-size: 10px;
