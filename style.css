@@ -914,14 +914,18 @@ color: white;
 
 @media(max-width:767px){
     body{
-        /* font-size: 62.5%; */
+        /* font-size: 82.5%; */
     }
+
 
     section{
         height: auto;
+        
+
     }
     .container{
         height: auto;
+       
     }
     header .container{
         display: flex;
@@ -931,8 +935,9 @@ color: white;
     .hairs{
     font-weight: 900;
     padding-left: 10px;
-    font-size: 1.5em;
+    font-size: 1em;
     }
+
     .sign-up a{
         font-size: 12px;
         padding: 3px;
@@ -1088,7 +1093,7 @@ color: white;
         background-color: darkblue;
     }
     .steps .container{
-        margin-top: -6em;
+        margin-top: 2em;
     }
    
         
@@ -1315,7 +1320,7 @@ color: white;
     
     
     .find-your-clinic{
-        padding-top: 4em;
+        padding-top: 13em;
         margin-right: 2em;
     }
     .find-your-clinic h6{
@@ -1336,7 +1341,7 @@ color: white;
         margin-left: 10px;
     }
     .check-gallery{
-         padding-top: 1px; 
+         padding-top: 10px; 
     }
     .check-gallery h6{
      font-size: 10px;
@@ -1516,7 +1521,8 @@ color: white;
         justify-content: space-between;
         flex-direction: row;
         padding-top: 1px;
-        margin-top: -8em;
+        margin-top: 2em;
+        
        
     }
     .change .time{
@@ -1580,7 +1586,654 @@ color: white;
       
 
 }
-@media (max-width:500px)and(max-width:600px){
+
+@media(max-width:600px){
+    .container{
+        padding-left: 1em;
+    }
+    header .container{
+        display: flex;
+         justify-content: space-between;
+         align-items: center; 
+    }
+    .hairs{
+    font-weight: 900;
+    padding-left: 10px;
+    font-size: 1.3em;
+    }
+    .sign-up a{
+        font-size: 11px;
+        padding: 1px;
+    }
+    .sign-up button {
+         padding: 3px; 
+         border-radius: 15px; 
+         
+
+    }
+    .sign-up button a{
+        color: white;
+       
+    }
+    .surgery .container {
+        display: flex;  
+         flex-direction: column;
+         margin-top: 1em;
+         margin-left: 10px;
+        }
+    
+    
+   
+    .doctor-list .doctor h5{
+        font-size: 10px;
+    }
+    .doctor-list .doctor p{
+        font-size: 10px;
+    }
+    
+    .doctor-list .doctor img{
+        width: 25px;
+        height: 30px;
+    }
+    .surgery .container h4{
+        font-size: 10px;
+    }
+    .surgery .container h2{
+        font-size: 1.5em;
+    }
+    .doctor-profile button{
+         padding-top: 2px; 
+         padding-bottom: 2px;
+    }
+    .doctor-profile .available-doctors button{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    
+    .doctor-profile button a{
+        font-size: 9px;}
+       
+    .consultation{
+        display: grid;   
+        grid-template-columns: repeat(2,1fr);
+    }
+    .consultation1,.consultation2,.consultation3,.consultation4{
+        display: flex;
+        margin: 1em;
+        margin-left: 0;
+    }
+    
+    
+    .consultation h5{
+         display: flex; 
+        font-size: 1.5em;
+        color: blue;
+    }
+    .consultation p{
+        display: flex;
+        flex-direction: column; 
+        font-size: 10px;
+    }
+    
+      .button button,.sertificated button {
+        
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 10px;
+        
+      }
+      .button button a{
+        color: white;
+        text-decoration:none ;
+      }
+    
+    
+    .profile-image img {
+         width: 17em; 
+         height: 15em;
+         border-top-left-radius: 1em; 
+         border-bottom-right-radius: 1em;
+         border-bottom-left-radius: 8px;
+         border-top-right-radius: 8px;
+         margin-top: 1em;
+    }
+    
+    .available-doctors {
+        position: absolute;
+         top: 60%; 
+        left: 25%;
+        width: 50%;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    .available-header h4 {
+        font-size: 0.7em;
+       
+    }
+    
+    .available-header h5 {
+        font-size: 0.5em;
+    }
+    
+   
+    
+    
+    
+    .doctor-info h5 {
+        margin: 0;
+        font-size: 1em;
+    }
+    
+    .doctor-info p {
+        margin: 0;
+        color: gray;
+        font-size: 0.9em;
+    }
+    
+    .available-doctors button {
+        width: 100%;
+        padding: 0.7em;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+     .available-doctors button a {
+        color: white;
+        text-decoration: none;
+        background-color: blue;
+    }
+    
+    button:hover {
+        background-color: darkblue;
+    }
+    .steps .container{
+        margin-top: 4em;
+    }
+   
+        
+    .steps h2{
+        font-size: 1em;
+    }
+    .solutions{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    }
+    .solutions h5{
+        font-size: 1.5em;
+        text-align: left;
+    }
+    .solutions h6{
+        font-size: 12px;
+        padding-bottom: 1em;
+    }
+    .solutions p{
+       
+        font-size: 10px;
+    }
+  
+    .feedbacks{
+        display: grid;
+        grid-template-columns: repeat(3,1fr); 
+    }
+    .feedbacks h1{
+        font-size: 1em;
+    }
+    .feedbacks h1 span{
+        font-size: 10px;        
+    }
+    .feedbacks h4{
+        font-size: 0.5em;
+    }
+    .feedbacks p{
+        font-size: 10px;
+        margin-right: 7px;
+    }
+    
+    .feedback2{
+         
+         margin-left: 5px; 
+    }
+    .feedback3{
+       
+        margin-left: 5px;
+    }
+    .qualified-doctors .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .high-doctors{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .high-doctors img{
+        width: 25%;
+        border-radius: 5px;
+    }
+    .high-doctor3 img,.high-doctor1 img,.high-doctor4 img,.high-doctor2 img{
+        height: 3em;
+        margin: 10px;
+    }
+    .high-doctor1,.high-doctor2,.high-doctor3,.high-doctor4{
+      
+        width: 10em; 
+        height: 11em; 
+        
+    }
+    
+    .high-doctors h5,p,span,h6{
+        margin-left: 10px;
+    }
+    .high-doctors h5{
+        font-size: 12px;
+    }
+    .high-doctors p{
+        font-size: 12px;
+        /* font-size: 5px; */
+    }
+    .high-doctors h6{
+        font-size: 10px;
+    }
+    .high-doctors span{
+        font-size: 8px;
+    }
+    .sertificated{
+        padding: 2em;
+        margin-top: 1em; 
+    }
+    
+    .sertificated h2{
+        font-size: 1.2em;
+    }
+    .sertificated p{
+        font-size: 9px;
+        margin-left: 3px;
+    }
+    .sertificated button{
+        margin-top: 1em;
+        padding: 4px;
+        font-size: 12px;
+    }
+    .post-questions .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+         padding-top: 15em;
+         
+    }
+    .container .post-question h6{
+       font-size: 10px;
+    }
+    .container .post-question h2{
+        font-size: 1em;
+        margin-left: 11px;
+        margin-top: 4px;
+    }
+    .container .post-question p{
+        font-size: 10px;
+    }
+    .container .post-question h5{
+        font-size: 10px;
+    }
+   
+    .experts {
+        display: flex;
+    }
+    
+    .doc-info {
+        position: relative;
+    }
+    
+    .doc-photo {
+        width: 13em;
+        height: 15em;
+        border-top-left-radius: 2em;
+        border-bottom-right-radius: 2em;
+        border-top-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+    }
+    
+    .doc-list {
+        position: absolute;
+        top: 60%;
+         right: 40%; 
+        background-color: #bdadad;
+        border-radius: 10px;
+        padding: 10px;
+        width: 180px;
+    }
+    
+    .doc-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    }
+    
+    .doc-item img {
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    .doc-details h3 {
+        font-size: 10px;
+    }
+    
+    .doc-details p {
+        font-size: 7px;
+    }
+    
+    .ask-question {
+        padding: 3px;
+        font-size: 8px;
+    }
+    .hair-transplant .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card {
+        padding-top: 22em;
+    }
+    
+    .card-info {
+        position: relative;
+    }
+    
+    .card-photo {
+        width: 13em;
+        height: 15em;
+         border-top-right-radius: 2em; 
+        border-bottom-left-radius: 2em;
+        margin-bottom: 20px;
+        margin-right: 3em;
+    }
+    
+    .card-list {
+        position: absolute;
+        top: 65%;
+         left: 52%; 
+        background-color: white;
+         border-radius: 3px; 
+        padding: 10px;
+        width: 150px;
+    }
+    
+    .card-item1,.card-item2,.card-item3 {
+        font-size: 10px;
+    }
+
+    .card-list h5{
+        font-size: 17px; 
+        
+    }
+    .card-list .card-details p{
+        font-size: 8px;
+    }
+    
+    
+    .find-your-clinic{
+        padding-top: 5em;
+        margin-left: 6px;
+    }
+    .find-your-clinic h6{
+        font-size: 10px;
+    }
+    .find-your-clinic h2{
+        font-size: 1em;
+        margin-left: 7px;
+    }
+    .find-your-clinic p{
+        font-size: 10px;
+    }
+    .gallery .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 15em;
+        margin-left: 10px;
+    }
+    .check-gallery{
+         padding-top: 20em; 
+    }
+    .check-gallery h6{
+     font-size: 10px;
+    }
+    .check-gallery h2{
+        font-size: 1.6em;
+        margin-left: 10px;
+    
+    }
+    .check-gallery p{
+        font-size: 10px;
+    }
+    .check-gallery h5 {
+        font-size: 12px;
+    }
+    .check-gallery button{
+        margin-left: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .check-gallery button a{
+    text-decoration: none;
+    color: white;
+    }
+    .gallery-process .image-wrapper {
+        margin-bottom: 8em;
+    }
+    .image-wrapper img {
+        width: 16em;
+        height: 15em;
+         border-top-left-radius: 2em; 
+        border-bottom-right-radius: 2em;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: -50px;
+        right: 42%;
+        background-color: white;
+        width: 180px;  
+    }
+    
+    
+    .search-box input {
+        width: 50%;
+        background-color: none;
+    }
+    
+    .search-box button {
+        
+        font-size: 1.2em;
+        
+    }
+    
+    .result img {
+        width: 10em;
+        height: 5em;
+    }
+    
+   
+    
+    .result h3 {
+        font-size: 12px;
+    }
+    
+    .result p {
+        font-size: 10px;
+    }
+    .our-doctors .container{
+        margin-top: 44em;
+    }
+     .container .see-doctorz h5 {
+       font-size: 10px;
+    }
+     .our-doctors .container .see-doctorz h2{
+        font-size: 1.4em;
+    }
+    .our-doctors .container .see-doctorz p{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .container .see-doctors {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+        margin-left: 30px; 
+    }
+    .see-doctor1,.see-doctor2,.see-doctor3,.see-doctor4,.see-doctor5,.see-doctor6,.see-doctor7,.see-doctor8{
+        border-radius: 1em;
+        height: 10em;
+        width: 8em;
+       
+    }
+    .see-doctors img{
+        width: 2em;
+        height: 2em;
+        border-radius: 7px;
+    }
+    .see-doctor1 .patient h6,.see-doctor3 .patient h6,.see-doctor6 .patient h6{
+        margin-left: 1px;
+    }
+
+   
+    .see-doctors h3{
+        font-size: 11px;
+        margin-top: 5px;  
+    }
+    .see-doctors h5{
+        border: 1px solid;
+        width: 45px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .see-doctor2 h5,.see-doctor7 h5{
+        margin-left: 2.5em;
+    }
+    .see-doctors h6{
+        border: 1px solid;
+        width: 45px;
+        font-size: 10px;
+    }
+    .see-doctors p{
+        font-size: 10px;
+        margin-right: 30px;
+        margin-top: 12px;
+    }
+    .see-doctors strong{
+        font-size: 8px;
+        margin-right: 12px;
+    }
+    .see-doctor-button button {
+        font-size: 10px;
+        padding: 4px;
+        border-radius: 15px;
+        padding-left: 1.7em;
+        padding-right: 1.7em;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+   
+    .testominals .container{
+        margin-top: 32em;
+    }
+    .About-us h5{
+        font-size: 10px;
+    }
+    .About-us h2{
+        font-size: 1.2em;
+    }
+    .image-text-comment{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .comment-image img {
+        width: 40px;
+        height: 30px;
+        border-radius: 10%;
+        margin: 16px;
+    }
+    
+    .container .comment-details {
+        padding: 16px;
+    }
+    
+    .container .comment-details h2 {
+
+        font-size: 14px;
+    }
+    
+    .container .comment-details p {
+        font-size: 10px;
+    }
+    .container .change{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 1px;
+       
+    }
+    .change .time{
+        flex:3;
+    }
+    .change .time h6{
+        font-size: 10px;
+        text-align: center;   
+    }
+    .change .time h2 {
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    
+    .change .time-button{
+        text-align: center;
+        padding: 10px;
+    }
+    .change .time-button button{
+        font-size: 8px;
+    }
+    .hairs-footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+   
+    .hair-footer1 h5 ,.hair-footer2 h5 ,.hair-footer3 h5 ,.hair-footer4 h5 {
+      margin-bottom: 1em;
+      margin-left: 1em;
+      font-size: 14px;
+      font-weight: 900;
+    }
+    .hair-footer1 p,.hair-footer2 p,.hair-footer3 p,.hair-footer4 p{
+       font-size: 10px;
+        
+    }
+    .hair-footer1-icon{
+        font-size: 1em;
+        margin-left: 3px;
+    }
+    .search-box2 button{
+        font-size: 14px;
+    }
+    .copy-write p{
+       font-size: 10px;
+    }
+    
+
+}
+@media (max-width:500px){
     .container{
         padding-left: 1em;
     }
