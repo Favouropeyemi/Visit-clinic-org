@@ -1320,7 +1320,7 @@ color: white;
     
     
     .find-your-clinic{
-        padding-top: 13em;
+        padding-top: 7em;
         margin-right: 2em;
     }
     .find-your-clinic h6{
@@ -1981,7 +1981,8 @@ color: white;
     
     
     .find-your-clinic{
-        padding-top: 5em;
+        /***/
+        padding-top: 3em;
         margin-left: 6px;
     }
     .find-your-clinic h6{
@@ -3003,7 +3004,7 @@ color: white;
          border-bottom-right-radius: 1em;
          border-bottom-left-radius: 8px;
          border-top-right-radius: 8px;
-         margin-top: 1em;
+         margin-top: 3em;
     }
     
     .available-doctors {
@@ -3059,10 +3060,14 @@ color: white;
     button:hover {
         background-color: darkblue;
     }
-    .steps .container{
+
+
+    
+    .steps .container{  
         margin-top: 13em;
     }
    
+    
         
     .steps h2{
         font-size: 1em;
@@ -3113,6 +3118,7 @@ color: white;
     .qualified-doctors .container{
         display: flex;
         flex-direction: column;
+        margin-top: 1em;
         
     }
     
@@ -3287,7 +3293,7 @@ color: white;
     
     
     .find-your-clinic{
-        padding-top: 4em;
+        padding-top: 6em;
     }
     .find-your-clinic h6{
         font-size: 10px;
@@ -3303,11 +3309,12 @@ color: white;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        /* padding-top: -10em; */
+        /* padding-top: -10em;  */
         margin-left: 10px;
     }
     .check-gallery{
-         padding-top: 1em; 
+         padding-top: 1em;
+         /* padding-bottom: 25em; */
     }
     .check-gallery h6{
      font-size: 10px;
